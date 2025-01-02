@@ -1,5 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 import './normalize.css';
+import { COLORS } from '../constants/colors';
+import { FONTS } from '../constants/fonts';
 export const GlobalStyles = createGlobalStyle`
     *,
     *::after,
@@ -23,5 +25,8 @@ export const GlobalStyles = createGlobalStyle`
         text-decoration: none;
         color: inherit;
     }
-
+    body {
+        background-color:${COLORS.dark};
+        font-family: ${FONTS.poppins};
+    }
 `;
