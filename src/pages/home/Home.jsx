@@ -43,10 +43,7 @@ const Home = () => {
 					risus cursus sollicitudin. placerat quam Lorem tincidunt eu lacus ex
 					fringilla lobortis, Donec quis quis
 				</StyledParagraph>
-				<StyledSeparator
-					src='public/assets/images/common/separator-h.png'
-					alt=''
-				/>
+				<StyledSeparator src='/assets/images/common/separator-h.png' alt='' />
 				<StyledBoxMythologies>
 					{MITOLOGY.map(mith => (
 						<BoxMithos
@@ -59,7 +56,7 @@ const Home = () => {
 					))}
 				</StyledBoxMythologies>
 				<StyledSeparatorDesktop
-					src='public/assets/images/common/separator-h.png'
+					src='/assets/images/common/separator-h.png'
 					alt=''
 				/>
 				<StyledBoxParagraphDesk>
@@ -81,10 +78,7 @@ const Home = () => {
 				<StyledPhrase $font={FONTS.playfair}>
 					"Incluso el Olimpo tembló ante el poder del trueno de Zeus."
 				</StyledPhrase>
-				<StyledSeparator
-					src='public/assets/images/common/separator-h.png'
-					alt=''
-				/>
+				<StyledSeparator src='/assets/images/common/separator-h.png' alt='' />
 			</StyledMain>
 		</>
 	);

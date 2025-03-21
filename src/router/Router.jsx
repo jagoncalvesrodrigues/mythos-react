@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import Home from '../pages/home/Home';
 import { MITOLOGY } from '../constants/mitology';
-import Mythos from '../pages/mythos/Mythos';
+import Mythos from '../pages/Mythos/Mythos';
 
 const Router = () => {
 	return (
