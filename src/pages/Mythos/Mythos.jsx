@@ -74,7 +74,7 @@ const Mythos = ({ img, mith, name }) => {
 						</StyledTextTypeTablet>
 					</StyledDivText>
 					<StyledVerticalSeparator
-						src='public/assets/images/common/separator-v.png'
+						src='/assets/images/common/separator-v.png'
 						alt=''
 					/>
 					<PictureImages
@@ -84,7 +84,7 @@ const Mythos = ({ img, mith, name }) => {
 					/>
 				</StyledDivTablet>
 				<StyledSeparatorMythos
-					src='public/assets/images/common/separator-h.png'
+					src='/assets/images/common/separator-h.png'
 					alt=''
 				/>
 				<StyledTextType $colorLetter={COLORS.white}>
