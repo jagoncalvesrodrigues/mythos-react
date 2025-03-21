@@ -9,6 +9,10 @@ const StyledNav = styled.div`
     padding: 23px 20px;
     font-family: ${({$font})=>$font};
     border-bottom: 2px solid ${({$color})=>$color};
+
+    @media screen and (width>=1440px) {
+        padding: 0px 105px 0 105px;
+    }
 `;
 
 const StyledNavTitle = styled.p`
@@ -39,6 +43,7 @@ const StyledButtonsNav = styled.div`
         flex-direction: row;
         position: static;
         background-color: transparent;
+        width: auto;
     }
 
 `;

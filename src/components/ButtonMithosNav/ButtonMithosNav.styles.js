@@ -10,7 +10,8 @@ const StyledBoxButton = styled.div`
         padding: 0;
         border-bottom: 0;
         text-align: right;
-        
+        width: auto;
+        margin-left: 16px;
     }
 `;
 

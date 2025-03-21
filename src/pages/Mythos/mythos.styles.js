@@ -81,7 +81,8 @@ const StyledButtonTypesBottom = styled.div`
     }
     @media screen and (width>=1440px){
         width: 50%;
-        font-size: 24px;
+        font-size: 24px;;
+
     }
 `;
 const StyledDivTablet = styled.div`
